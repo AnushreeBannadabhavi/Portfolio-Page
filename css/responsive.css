@@ -1,0 +1,49 @@
+@media screen and (max-width: 449px) {
+	.name-prop {
+		width: 60%;
+	}
+
+	.title{
+		font-size: 0.9em;
+	}
+
+	.name{
+		font-size: 1.2em;
+	}
+	
+	.logo {
+		width: 50px;
+		height: 70px;
+	}
+
+}
+
+@media screen and (min-width: 450px)
+{
+	.project {
+		width: 48%;
+	}
+	.img {
+		height: 140px;
+		width : 30%;
+	}
+}
+
+@media screen and (min-width: 720px)
+{
+	.project {
+		width: 30%;
+	}
+	.img {
+		height : 160px;
+		width : 20%;
+	}
+}
+
+@media screen and (min-width: 960px)
+{
+	.content {
+		width: 960px;
+		margin: 0 auto;
+	}
+}
